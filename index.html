@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Kimya</title>
+    </head>
+    <body onload="metalGetir();">
+        <div class="c1">
+            <div class="üstkısım">
+                  <div class="vMetreKSol">
+                  </div>
+                    <div class="vMetreKSağ"></div>
+              <div id="vMetreVal" class="voltmetre">
+                -
+                  </div>
+              <div class="tuzköprüsü">
+              </div>
+            </div>
+            <div class="altkısım">
+            </div>
+            <div class="solkap">
+          
+              <div class="solCubuk">
+              </div>
+                  <p id="cbk1" style="bottom:0;position:absolute" state="false">
+            </div>
+            <div class="sağkap">
+              <div  class="sağCubuk">
+          
+              </div>
+              <p id="cbk2" style="bottom:0;position:absolute" state="false">
+ 
+            </div>  
+
+          </div>
+          <p id="elektrotType1" style="bottom:15%;position: absolute;font-size:22px"> 
+          <p id="elektrotType2" style="bottom:15%;position: absolute;font-size:22px;right:0"> 
+
+          <div class="altContainer">
+            <a id="1" style="left:0"   onclick="listShow(this.id)" class="action-button shadow animate blue">Seç</a>
+            <a id="" style='left:0;right:0;margin-left:auto;margin-right:auto;width:50px' onclick="location.reload()"class="action-button shadow animate blue">Sıfırla</a>
+            <a id="2" style="right:0"  onclick="listShow(this.id)"class="action-button shadow animate blue">Seç</a>
+          </div>
+          <div id="cozelti1List" >
+              <div id="cozelti1ListKapat" onclick="listeKapat(this.id)">X</div>
+          </div>
+          <div id="cozelti2List">
+                <div id="cozelti2ListKapat" onclick="listeKapat(this.id)">X</div>
+        </div>
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

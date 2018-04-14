@@ -1,0 +1,29 @@
+body {
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    text-transform:uppercase;
+    width:100%;
+}
+#elementKutusu{
+    width: 95%;
+    background-color: #eee;
+    height: 150px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    border: 0.5px solid #000;
+    border-radius: 20px;
+}
+.birElement{
+    width: 100px;
+    height: 75px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border: 0.5px solid #000;
+    position: relative;
+    float: left
+}
